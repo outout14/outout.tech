@@ -1,0 +1,133 @@
+/*                                 |\    /|
+                              ___| \,,/_/
+                           ---__/ \/    \
+                          __--/     (D)  \
+                          _ -/    (_      \
+                         // /       \_ / ==\
+   __-------_____--___--/           / \_ O o)
+  /                                 /   \==/`
+ /                                 /
+||          )                   \_/\
+||         /              _      /  |
+| |      /--______      ___\    /\  :
+| /   __-  - _/   ------    |  |   \ \
+ |   -  -   /                | |     \ )
+ |  |   -  |                 | )     | |
+  | |    | |                 | |    | |
+  | |    < |                 | |   |_/
+  < |    /__\                <  \
+  /__\                       /___\ */
+
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+body
+{
+  background-color: #474f56;
+  color: #EEEEEE;
+  font-family: 'Nunito', sans-serif;
+}
+.flexible
+{
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.container
+{
+  background-color: #EEEEEE;
+  color: #3b4247;
+  display:inline-block;
+  box-shadow: 10px 10px 250px black;
+
+  border-radius: 10px;
+  margin: 5%;
+  min-width: 30%
+}
+.container .title, .container .content
+{
+  padding: 2%;
+}
+.container .title
+{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 150%;
+}
+.container .content
+{
+  font-size: 120%;
+}
+.container p, .container h1, .container h2
+{
+  padding: 0;
+  margin: 0;
+}
+.container h2
+{
+  margin-bottom: 1%;
+}
+.hastag
+{
+  color: #4099FF;
+  text-decoration: underline;
+}
+.container-bis
+{
+  margin-left: 0
+}
+ul
+{
+  list-style-type: none;
+}
+.img
+{
+  text-align: center;
+  overflow: hidden;
+}
+img
+{
+  margin: 1%;
+  border-radius: 50%;
+  transition: border-radius 1s;
+  width: 50%;
+}
+img:hover
+{
+  border-radius: 30%;
+}
+
+.banner
+{
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 180%;
+  padding: 0.5%;
+}
+a
+{
+  color: #19B5FE;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.banner a
+{
+  color: white;
+}
+a:hover
+{
+  color: #217ba5;
+}
+
+footer
+{
+  text-align: center;
+  flex: 1;
+  color: gray;
+}
