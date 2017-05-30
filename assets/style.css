@@ -131,3 +131,12 @@ footer
   flex: 1;
   color: gray;
 }
+
+.diagamma
+{
+    background-color: #556ce0;
+    color: white;
+    padding: 0.5%;
+    margin: 1%;
+    margin-top: 0%;
+}
